@@ -1,0 +1,19 @@
+[project]
+name = "rag-for-querying"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chroma>=0.2.0",
+    "ipykernel>=7.2.0",
+    "langchain>=1.2.10",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.14",
+    "langchain-openai>=1.1.10",
+    "langchain-text-splitters>=1.1.1",
+    "pydantic>=2.12.5",
+    "semantic-chunker>=0.2.0",
+    "sentence-transformers>=5.2.3",
+]
